@@ -6,6 +6,8 @@
 }
 
 body{
+    background-image: url("Video-Game-Transparent-Free-PNG.png");
+    background-size: cover;
     height: 900vh;
 }
 
@@ -13,14 +15,16 @@ nav.menu-lateral{
     width: 80px;
     height: 100%;
     background-color: #202020;
-    padding: 100 0 100 1%;
-    box-shadow: 3px 0 0 #ff6961;
+    padding: 100 0 100 1%;    
+    box-shadow: 1px 0 0 #ff6961;
 
     position: fixed;
     top: 0;
-    left: 0;
+    left: -35px;
     overflow: hidden;
     transition: 0.2s;
+    opacity: 0.9;
+    
     
 }
 
@@ -30,7 +34,7 @@ nav.menu-lateral:hover{
 
 .btn-expandir{
     width: 100%;
-    padding-left: 40px;
+    padding-left: 50px;
 }
 
 .btn-expandir > i{
@@ -59,8 +63,9 @@ ul li.item-menu:hover{
 ul li.item-menu a{
     color: white;
     text-decoration: none;
-    font-size: 10px;
+    font-size: 13px;
     padding: 10px 1%;
+    padding-top: 20px;
     display: flex;
     margin-bottom: 0px;
     line-height: 10px;
@@ -71,7 +76,8 @@ ul li.item-menu a .txt-link{
 }
 
 ul li.item-menu a .icon > i{
-    font-size: 15px;
+    font-size: 20px;
     margin-left: 5px;
+    
 }
 
